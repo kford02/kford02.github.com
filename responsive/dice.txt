@@ -1,0 +1,10 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: #C394D2;
+	font-size: small;
+	color: black;
+}
+
+.hidden{
+	color: #C394D2
+}
