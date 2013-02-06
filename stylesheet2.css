@@ -1,0 +1,25 @@
+body {
+  font-family: "Arial Black", Gadget, sans-serif;
+	background-color: #D2D2D2;
+	font-size: medium;
+	color: black;
+}
+ul, p, h1, h2 {
+	margin-left: 10%;
+	
+}
+.sections{
+	color:#E02878;
+}
+h2, .blocks{
+	border-bottom: #100C0C;
+    border-left: #E02878;
+    border-right: #E02878;
+    border-top: #100C0C;
+}
+.blocks {
+    border-style: solid;
+}
+li.one {
+    background-color: #635F65;
+}
