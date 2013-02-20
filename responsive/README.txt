@@ -1,6 +1,5 @@
 This submission includes 3 files: index.html, nodice.html, and dice.html 
 
-I originally tried to used media types "Screen and (min color:_), but that didn't work. 
+I created different stylesheets for laptop and mobile devices. I used the hidden command to hide the "NO" when the site is displayed on a phone. 
 
-I also tried to to use the display: non attribute which didn't work so I tried to make the "NO" the same color as the background so it wouldn't be visible. I understand the point of the assignment and
-will be sure to re-examine it when I have time. Thanks!! 
+I worked independently for this assignment. 
