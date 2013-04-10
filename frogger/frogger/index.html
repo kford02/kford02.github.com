@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Frogger</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="game.js"></script>
+<!--<script src="game.js"></script>-->
+<script type="text/javascript">
+ 
+ $(document).ready(function(){
+	$(document).keydown();
+});
+</script>
+
+</head>
+<body onload="game_start(); road(); frogger_title(); purple1(); purple2(); cars(); logs(); footer(); life(); home(); object_animation(); frogUP()">
+<div id="game_div">
+<canvas id="game" height="565" width="399"></canvas>
+<img id="frogboy" src="assets/frogboy.png" width="1" height="1">
+<img id="dead_frog" src="assets/dead_frog.png" width="1" height="1">
+</div>
+</body>
+</html>
