@@ -27,7 +27,7 @@ var log6Ride;
 var log7Ride;
 var log8Ride;
 var log9Ride;
-
+var username;
 
 
 function game_start(){
@@ -297,7 +297,7 @@ function collision_check(){
 		if (lives==0){
 		lifeX3=600;
 		lifeY3=600;
-		alert("GAME OVER");
+		gameOver();
 		lifeX1= 305;
 		lifeX2= 325;
 		lifeX3= 345;
@@ -319,6 +319,19 @@ function collision_check(){
 	}
 
 }
+
+function gameOver(){
+var player=prompt("Please enter your username","USERNAME");
+
+if (player!=null)
+  {
+  username=player;
+  console.log(username);
+  
+  }
+}
+
+
 function position_update(){
 	if (carsX4>380){
 	carsX4=-20;
